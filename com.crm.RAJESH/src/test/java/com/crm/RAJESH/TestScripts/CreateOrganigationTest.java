@@ -21,6 +21,7 @@ public class CreateOrganigationTest extends BaseClass{
 	
 		 @Test(groups = "smokeTest")
 			public void createOrganization() throws Throwable, IOException {
+			 System.out.println("rajesh");
 		   
 		    //fetching TestData from excel
 			String ExpectedOrgName=eLib.getDataFromExcel("CreateOrg", 1, 3);
