@@ -20,6 +20,9 @@ public class CreateProductTest extends BaseClass {
 	@Test(groups = "smoke")
 	public void createProduct() throws Throwable, IOException {
 		
+		
+		
+		
 	    //fetching test data from excel
 	    String expectedProduct=eLib.getDataFromExcel("ProductName", 1, 3);
 		System.out.println(expectedProduct);
